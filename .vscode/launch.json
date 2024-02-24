@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "RunTest",
+            "request": "launch",
+            "mainClass": "edu.escuelaing.arem.ASE.app.RunTest",
+            "projectName": "tallerSpark"
+        },
+        {
+            "type": "java",
+            "name": "MyWebServices",
+            "request": "launch",
+            "mainClass": "edu.escuelaing.arem.ASE.app.WebApp.MyWebServices",
+            "projectName": "tallerSpark"
+        },
+        {
+            "type": "java",
             "name": "Current File",
             "request": "launch",
             "mainClass": "${file}"
